@@ -1,0 +1,46 @@
+En CSS, los términos **main axis** y **cross axis** se utilizan principalmente en el contexto de Flexbox y Grid Layout para describir las direcciones en las que los elementos se distribuyen y alinean. Aquí tienes una explicación detallada:
+
+### Main Axis
+
+- **Definición**: El main axis (eje principal) es la dirección principal en la que los elementos flexibles se colocan dentro de un contenedor flex.
+
+- **Dirección**: La dirección del main axis depende de la propiedad `flex-direction` del contenedor. Puede ser horizontal (`row` o `row-reverse`) o vertical (`column` o `column-reverse`).
+- **Propiedades Relacionadas**: 
+  - `justify-content`: Alinea los elementos a lo largo del main axis.
+  - `flex-direction`: Define la dirección del main axis.
+
+### Cross Axis
+- **Definición**: El cross axis (eje transversal) es perpendicular al main axis. Es la dirección en la que los elementos flexibles se alinean transversalmente dentro del contenedor flex.
+- **Dirección**: La dirección del cross axis es perpendicular a la dirección del main axis. Si el main axis es horizontal, el cross axis será vertical, y viceversa.
+- **Propiedades Relacionadas**: 
+  - `align-items`: Alinea los elementos a lo largo del cross axis.
+  - `align-content`: Alinea las líneas de elementos a lo largo del cross axis cuando hay espacio adicional en el contenedor.
+
+### Ejemplo en Flexbox
+```css
+.container {
+    display: flex;
+    flex-direction: row; /* Main axis es horizontal */
+    justify-content: center; /* Alinea elementos en el main axis */
+    align-items: center; /* Alinea elementos en el cross axis */
+}
+```
+
+En este ejemplo:
+- El **main axis** es horizontal porque `flex-direction` está configurado como `row`.
+- El **cross axis** es vertical, perpendicular al main axis.
+
+### Ejemplo en Grid Layout
+```css
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Main axis es horizontal */
+    align-items: center; /* Alinea elementos en el cross axis */
+}
+```
+
+En este ejemplo:
+- El **main axis** es horizontal porque las columnas están definidas en `grid-template-columns`.
+- El **cross axis** es vertical, perpendicular al main axis.
+
+Espero que esto aclare las diferencias entre el main axis y el cross axis en CSS. ¿Te gustaría saber más sobre cómo usar Flexbox o Grid Layout en tus proyectos?

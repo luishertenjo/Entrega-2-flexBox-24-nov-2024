@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.contenedor-1 {
+/*logo -login y boton JOIN US*/
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;    
+    display: flex; /*aplica flex*/
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor-1 .logo {
+/*estilo del logo */
+    font-size: 24px;
+    color: #2F354B;
+}
+.contenedor-1 nav a {
+/*estilo para login*/
+    color: #96BB7C;
+    margin: 0 10px;
+}
+.item-1a {
+/*estilo para boton JOIN US */
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 52px;
+    width: 214px;
+    padding: 0px 77px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.contenedor-2 {
+/*imagen niña y 25K+ estudents*/
+    display: flex; /* aplicar flex */
+    flex-wrap: wrap; /*cambiar de row a colum en menos espacio*/
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #DDF4FF;
+}
+.item-2a { 
+/*estilo Best dental surgeons*/
+    color: #96BB7C;
+}
+.contenedor-2 .contenedor-2a {
+/*sub contenedor 25K y Botones get y learn*/
+    max-width: 60%;
+}
+.contenedor-2 .contenedor-2aa {
+/*contenedor botones get learn alinear row*/
+    display: flex; /*aplica flex*/
+    flex-direction: row; /*por defecto en fila*/
+    gap: 10px;
+    margin: 20px 0;
+}
+.contenedor-2 .contenedor-2aa button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.get-2{
+/*estilo boton get*/
+    width: Hug (193px)px;
+    height: Hug (52px)px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #96BB7C;
+    color: #FFFFFF;
+}
+
+.learn-2 {
+/*estilo boton learn*/
+    width: Hug (162px)px;
+    height: Hug (52px)px;
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #DDF4FF;
+    color: #96BB7C;
+
+}
+
+
+.contenedor-3 {
+/*valores 15k 150k 15 100+*/
+    display: flex; /*aplica flex*/
+    align-items: center;
+    flex-wrap: wrap; /* cambia ocupa espacio abajo */
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.valor-3a {
+/* valores estilos (15K, 150K..)*/
+    display: flex;
+    color: #96BB7C;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 220px;
+}
+
+.contenido-3a{
+/*estilo contenido */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;           
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.quality{
+/* estilo get quality */
+    padding: 10px 40px 0px 130px;
+    background-color: #FFF2F3;     
+    margin-bottom: 0; 
+    width: auto;       
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+
+.contenedor-4 {
+/*cajas lifetime - training - lifetime*/
+    display: flex; /*aplica flex*/
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #FFF2F3;
+    margin-top: 0; /*  margen superior */
+}
+.contenedor-4 div {
+/*estilo cajas lifetime - training - lifetime*/
+    text-align: left;
+    padding: 10px;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.contenedor-4 div h5{
+/* estilo item en contenedo cajas etiquetas H5*/   
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.line-4 {
+/*estilo linea roja en cajas*/
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #E74040;
+    width: 50px;
+    height: 2px;
+    gap: 0px;
+    opacity: 0px;            
+}
+
+
+.contenedor-4 div p{
+/*estilo item en contenedor cajas etiquetas P*/  
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footer {
+/*contenedor 5 - footer */
+    display: flex; /*aplica flex*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.footer h6{
+/*estilos en fotter H6*/ 
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footer .redes-sociales a {
+/*items redes sociales*/
+    color: #96BB7C;
+    margin: 0 10px;
+    text-decoration: none;
+    width: Hug (112px)px;
+    height: Hug (24px)px;
+    gap: 20px;
+    opacity: 0px;
+
+}
+
+/* media queri */
+@media (max-width: 768px) {
+/*acondicionando posicion dependieno espacio*/
+    .contenedor-1 {  
+    /*mantener logo*/              
+        text-align: left;
+    }
+    .contenedor-2 {
+    /* bajar imagen y arriba 25K*/
+        flex-direction: column;
+    }
+    .contenedor-2 .contenedor-2a {
+    /*no distorcionar contenedor botones */
+        max-width: 100%;
+        text-align: center;
+    }
+    .contenedor-3 {
+    /*posicionar en colunmas 15K 150K ....*/
+        flex-direction: column;
+    }
+    .contenedor-4 {
+    /*flex en colunnas cajas */
+        flex-direction: column;
+    }
+    .footer {
+    /*posicion columna redes y made with*/
+        flex-direction: column;
+    }
+}
+
+
+        
